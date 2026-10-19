@@ -270,6 +270,23 @@
     background-size: 100% 1px;
   }
 
+  .pub-featured {
+    padding-left: 14px;
+    padding-right: 14px;
+    margin-left: -14px;
+    margin-right: -14px;
+    border-left: 2px solid var(--warm);
+    background: color-mix(in srgb, var(--bg-soft) 55%, transparent);
+  }
+
+  .spotlight {
+    display: inline-block;
+    margin-left: 0.45rem;
+    color: var(--warm);
+    font-style: normal;
+    font-weight: 600;
+  }
+
   .hobbies {
     display: flex;
     flex-wrap: wrap;
@@ -405,6 +422,17 @@
     <section>
       <h2>Publications</h2>
       <ol class="publications" reversed>
+        <li class="pub pub-featured">
+          <div class="pub-year">2026</div>
+          <div>
+            <div class="pub-title"><a href="https://arxiv.org/pdf/2609.27033" target="_blank" rel="noopener">WTF?! Simulation-Free Reinforcement Learning with Wasserstein-Tilted Flow Maps</a></div>
+            <div class="pub-authors">
+              A. Mammadov, J. Y. Huang, <span class="me">Justin Lin</span>, P. Kaushik, S. Shah, K. Nair, Y. W. Teh, N. M. Boffi
+            </div>
+            <div class="pub-venue">Conference on Neural Information Processing Systems (NeurIPS), 2026 <span class="spotlight">Spotlight</span></div>
+          </div>
+        </li>
+
         <li class="pub">
           <div class="pub-year">2026</div>
           <div>
